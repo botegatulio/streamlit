@@ -68,7 +68,7 @@ def analisar_volume_blog(domain, df_keywords, df_urls_blog, ano_selecionado=None
     }
 
 # Streamlit UI
-df_keywords = pd.read_csv(r'dta/keywords.csv')
+df_keywords = pd.read_csv(r'data/keywords.csv')
 df_urls_blog = pd.read_csv(r'data/urls_domains.csv')
 
 if 'LastModified' in df_urls_blog.columns:
